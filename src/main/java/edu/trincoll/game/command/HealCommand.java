@@ -30,17 +30,6 @@ public class HealCommand implements GameCommand {
         this.amount = amount;
     }
 
-    @Override
-    public void execute() {
-        // TODO 4b: Implement heal execution
-        throw new UnsupportedOperationException("TODO 4b: Implement HealCommand.execute()");
-    }
-
-    @Override
-    public void undo() {
-        // TODO 4b: Implement heal undo
-        throw new UnsupportedOperationException("TODO 4b: Implement HealCommand.undo()");
-    }
 
     @Override
     public String getDescription() {
