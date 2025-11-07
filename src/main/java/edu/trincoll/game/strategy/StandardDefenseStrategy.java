@@ -18,4 +18,10 @@ import edu.trincoll.game.model.Character;
  *   Actual damage: 50 - 10 = 40
  *   Return: 40
  */
-
+public class StandardDefenseStrategy implements DefenseStrategy {
+    @Override
+    public int calculateDamageReduction(Character defender, int incomingDamage) {
+        // TODO 1d: Implement standard defense calculation
+        throw new UnsupportedOperationException("TODO 1d: Implement standard defense calculation");
+    }
+}
