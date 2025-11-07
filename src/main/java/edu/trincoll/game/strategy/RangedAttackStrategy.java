@@ -27,4 +27,10 @@ import edu.trincoll.game.model.Character;
  *   Critical bonus: 40 * 1.5 = 60
  *   Return: 60
  */
-
+public class RangedAttackStrategy implements AttackStrategy {
+    @Override
+    public int calculateDamage(Character attacker, Character target) {
+        // TODO 1c: Implement ranged attack with critical hit logic
+        throw new UnsupportedOperationException("TODO 1c: Implement ranged attack calculation");
+    }
+}
